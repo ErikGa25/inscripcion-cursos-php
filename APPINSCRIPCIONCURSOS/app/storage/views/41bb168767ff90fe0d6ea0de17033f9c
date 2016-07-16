@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Cursos</title>
+		<?php echo HTML::style('css/bootstrap.min.css'); ?>
+
+		<?php echo HTML::style('css/estilos.css'); ?>
+
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="page-header">
+ 					<h1>Cursos de Programación <small> Panel de información</small></h1>
+				</div>
+
+				<div class="jumbotron">
+					<div class="row">
+						<div class="col-xs-12 col-md-6">
+							<h3>Nombre: </h3> <p>Jesus Erik Garcia Garcia</p>
+							<h3>Correo: </h3> <p>erik21@hotmail.com</p>
+							<h3>Teléfono: </h3> <p>55-12-33-44-77</p>
+						</div>
+
+						<div class="col-xs-12 col-md-6">
+							<h3>Cursos Inscritos:</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<?php echo HTML::script('js/jquery-1.12.4.min.js'); ?>
+
+	 	<?php echo HTML::script('js/bootstrap.min.js'); ?>
+
+	</body>
+</html>
