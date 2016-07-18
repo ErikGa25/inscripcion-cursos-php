@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'BDCursos',
 			'username'  => 'root',
-			'password'  => 't1erik6',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
