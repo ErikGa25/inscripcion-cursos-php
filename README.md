@@ -11,7 +11,7 @@ Sistema de inscripción a cursos realizado en Laravel v.4.2
 
 - Importar el archivo `bdcursos.sql` a la base de datos creada.
 
-Editar los parametros del archivo `database.php` que se encuentra en la ruta `APPINSCRIPCIONCURSOS/app/config/`
+Editar los parametros **database**, **username** y **password** del archivo `database.php` que se encuentra en la ruta `APPINSCRIPCIONCURSOS/app/config/`
 
 ```
 'mysql' => array(
