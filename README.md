@@ -17,9 +17,9 @@ Editar los parametros **database**, **username** y **password** del archivo `dat
 'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => '',
-			'username'  => '',
-			'password'  => '',
+			'database'  => '',    // Nombre de la base de datos que usaras
+			'username'  => '',    // Nombre de usuario de MySQL
+			'password'  => '',    // Password de MySQL
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
