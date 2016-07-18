@@ -10,6 +10,7 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+
 Route::get('/', 'AlumnoController@index');
 Route::any('/login', 'AlumnoController@login');
 Route::any('/registro', 'AlumnoController@registrarAlumno');
