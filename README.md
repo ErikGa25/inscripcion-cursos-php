@@ -7,7 +7,7 @@ Sistema de inscripción a cursos realizado en Laravel v.4.2
 
 - Cambiarse al directorio `APPINSCRIPCIONCURSOS` y ejecutar el comando `composer install`
 
-- Crear la base de datos **BDCursos**;
+- Crear la base de datos **BDCursos** en MySQL;
 
 - Importar el archivo **bdcursos.sql** a la base de datos creada.
 
