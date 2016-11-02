@@ -1,11 +1,11 @@
 # Sistema-inscripcion-laravel
 Sistema de inscripción a cursos realizado en Laravel v.4.2 
 
-- Instalar Composer
+- Se debe instalar el manejador de dependencias Composer
 
-- Copiar la carpeta `APPINSCRIPCIONCURSOS` a tu servidor local.
+- Copiar el directorio `APPINSCRIPCIONCURSOS` al directorio de tu servidor local.
 
-- Cambiarse al directorio `APPINSCRIPCIONCURSOS` y ejecutar el comando `composer install`
+- En una terminar o linea de comandos moverse al directorio `APPINSCRIPCIONCURSOS` y ejecutar el comando `composer install`
 
 - Crear la base de datos **BDCursos** en MySQL;
 
