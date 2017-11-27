@@ -1,6 +1,6 @@
 # Sistema cursos
 
-
+/*
 - Se debe instalar el manejador de dependencias Composer
 
 - Copiar el directorio `APPINSCRIPCIONCURSOS` al directorio de tu servidor local.
@@ -12,7 +12,7 @@
 - Importar el archivo **bdcursos.sql** a la base de datos creada.
 
 Editar los parametros **database**, **username** y **password** del archivo `database.php` que se encuentra en la ruta `APPINSCRIPCIONCURSOS/app/config/`
-
+*/
 ```
 'mysql' => array(
 			'driver'    => 'mysql',
