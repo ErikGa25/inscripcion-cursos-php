@@ -1,5 +1,5 @@
-# Sistema-inscripcion-laravel
-Sistema de inscripción a cursos realizado en Laravel v.4.2 
+# Sistema cursos
+
 
 - Se debe instalar el manejador de dependencias Composer
 
