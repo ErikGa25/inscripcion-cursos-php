@@ -16,7 +16,7 @@ En **Linux** ejecutar los siguientes comandos después de descargar el proyecto:
 
 1. cd inscripcion-cursos-php/
 2. mv APPINSCRIPCIONCURSOS/ /var/www/html/
-3. cd APPINSCRIPCIONCURSOS/
+3. cd /var/www/html/APPINSCRIPCIONCURSOS/
 4. composer install
 5. sudo chmod -R 777 app/storage/
 6. sudo nano /etc/apache2/apache2.conf
