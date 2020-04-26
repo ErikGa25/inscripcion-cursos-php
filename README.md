@@ -1,14 +1,25 @@
 
-# Instrucciones:
+# Instrucciones
 
-En **Linux** ejecutar los siguientes comandos:
+- Se debe tener instalado el manejador de dependencias **Composer**
+
+---
+
+En **Windows** ejecutar lo siguiente después de descargar el proyecto:
+
+1. Mover la carpeta APPINSCRIPCIONCURSOS al servidor local.
+2. Ejecutar composer install dentro de APPINSCRIPCIONCURSOS.
+
+---
+
+En **Linux** ejecutar los siguientes comandos después de descargar el proyecto:
 
 1. cd inscripcion-cursos-php/
 2. mv APPINSCRIPCIONCURSOS/ /var/www/html/
 3. cd APPINSCRIPCIONCURSOS/
 4. composer install
-5. chmod -R 777 app/storage/
-6. nano /etc/apache2/apache2.conf
+5. sudo chmod -R 777 app/storage/
+6. sudo nano /etc/apache2/apache2.conf
 ```
 Modificar:
 <Directory /var/www/>
@@ -28,15 +39,10 @@ Editar los parametros **database**, **username** y **password** del archivo `dat
 
 ```
 'mysql' => array(
-			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => '',    // Nombre de la base de datos que usaras
-			'username'  => '',    // Nombre de usuario de MySQL
-			'password'  => '',    // Password de MySQL
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
-		),
+	'database'  => '', // Nombre de la base de datos que usaras
+	'username'  => '', // Nombre de usuario de MySQL
+	'password'  => '', // Password de MySQL
+),
 ```
 
 
