@@ -18,8 +18,9 @@ En **Linux** ejecutar los siguientes comandos después de descargar el proyecto:
 2. mv APPINSCRIPCIONCURSOS/ /var/www/html/
 3. cd /var/www/html/APPINSCRIPCIONCURSOS/
 4. composer install
-5. sudo chmod -R 777 app/storage/
-6. sudo nano /etc/apache2/apache2.conf
+5. composer update `opcional`
+6. sudo chmod -R 777 app/storage/
+7. sudo nano /etc/apache2/apache2.conf
 ```
 Modificar:
 <Directory /var/www/>
@@ -27,8 +28,8 @@ Modificar:
         AllowOverride All
 </Directory>
 ```
-7. sudo a2enmod rewrite
-8. sudo service apache2 restart
+8. sudo a2enmod rewrite
+9. sudo service apache2 restart
 
 ---
 
