@@ -137,7 +137,7 @@ class AlumnoController extends BaseController
 
 		$prueba = DB::table('Curso')
             ->join('Aula', 'Curso.idAula', '=', 'Aula.idAula')
-            ->join('Profesor', 'curso.idAula', '=', 'Profesor.idProfesor')
+            ->join('Profesor', 'Curso.idAula', '=', 'Profesor.idProfesor')
             ->select('Curso.nombreCurso', 'Aula.aula', 'Profesor.nombreCompletoProfesor')
             ->get();
 
