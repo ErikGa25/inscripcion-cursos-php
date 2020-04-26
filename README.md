@@ -1,22 +1,25 @@
 
 # Instrucciones:
 
-En Linux ejecutar los siguientes comandos:
+En **Linux** ejecutar los siguientes comandos:
 
-- cd inscripcion-cursos-php/
-- mv APPINSCRIPCIONCURSOS/ /var/www/html/
-- cd APPINSCRIPCIONCURSOS/
-- composer install
-- sudo chmod -R 777 app/storage/
-- sudo nano /etc/apache2/apache2.conf
+1. cd inscripcion-cursos-php/
+2. mv APPINSCRIPCIONCURSOS/ /var/www/html/
+3. cd APPINSCRIPCIONCURSOS/
+4. composer install
+5. chmod -R 777 app/storage/
+6. nano /etc/apache2/apache2.conf
 ```
 Modificar:
 <Directory /var/www/>
         AllowOverride All
 </Directory>
 ```
-- sudo a2enmod rewrite
-- sudo service apache2 restart
+7. sudo a2enmod rewrite
+8. sudo service apache2 restart
+
+---
+
 - Crear la base de datos **BDCursos** en MySQL;
 
 - Importar el archivo **bdcursos.sql** a la base de datos creada.
