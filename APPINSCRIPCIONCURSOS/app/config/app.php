@@ -1,4 +1,5 @@
 <?php
+// Para evitar mensaje de error
 error_reporting(E_ALL ^ E_DEPRECATED);
 return array(
 
