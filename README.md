@@ -1,7 +1,7 @@
 
 # Instrucciones
 
-- Se debe tener instalado el manejador de dependencias **Composer**
+- Se debe tener instalado el manejador de dependencias **Composer**.
 
 ---
 
@@ -23,6 +23,7 @@ En **Linux** ejecutar los siguientes comandos después de descargar el proyecto:
 ```
 Modificar:
 <Directory /var/www/>
+	#AllowOverride None
         AllowOverride All
 </Directory>
 ```
@@ -31,7 +32,7 @@ Modificar:
 
 ---
 
-- Crear la base de datos **BDCursos** en MySQL;
+- Crear la base de datos **BDCursos** en MySQL.
 
 - Importar el archivo **bdcursos.sql** a la base de datos creada.
 
