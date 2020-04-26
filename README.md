@@ -1,12 +1,22 @@
 
 # Instrucciones:
 
-- Se debe instalar el manejador de dependencias Composer
+En Linux ejecutar los siguientes comandos:
 
-- Copiar el directorio `APPINSCRIPCIONCURSOS` al directorio de tu servidor local.
-
-- En una terminar o linea de comandos moverse al directorio `APPINSCRIPCIONCURSOS` y ejecutar el comando `composer install`
-
+- cd inscripcion-cursos-php/
+- mv APPINSCRIPCIONCURSOS/ /var/www/html/
+- cd APPINSCRIPCIONCURSOS/
+- composer install
+- sudo chmod -R 777 app/storage/
+- sudo nano /etc/apache2/apache2.conf
+```
+Modificar:
+<Directory /var/www/>
+        AllowOverride All
+</Directory>
+```
+- sudo a2enmod rewrite
+- sudo service apache2 restart
 - Crear la base de datos **BDCursos** en MySQL;
 
 - Importar el archivo **bdcursos.sql** a la base de datos creada.
@@ -27,4 +37,3 @@ Editar los parametros **database**, **username** y **password** del archivo `dat
 ```
 
 
-![Screnshoot](https://github.com/Erik21-Unam/Sistema-inscripcion-laravel/blob/master/basededatos/screenshot.PNG)
