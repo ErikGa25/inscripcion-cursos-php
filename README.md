@@ -9,7 +9,7 @@ En **Windows** ejecutar lo siguiente después de descargar el proyecto:
 
 1. Mover la carpeta APPINSCRIPCIONCURSOS al servidor local.
 2. Ejecutar composer install dentro de APPINSCRIPCIONCURSOS.
-
+3. Ejecutar composer update `opcional`
 ---
 
 En **Linux** ejecutar los siguientes comandos después de descargar el proyecto:
