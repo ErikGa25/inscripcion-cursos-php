@@ -39,7 +39,7 @@
 			</div>
 			@yield('contenido')
 		</div>
-		{{ HTML::script('js/jquery-1.12.4.min.js') }}
+		{{ HTML::script('js/jquery-3.5.1.min.js') }}
 	 	{{ HTML::script('js/bootstrap.min.js') }}
         @yield('mi-script')
 	</body>
