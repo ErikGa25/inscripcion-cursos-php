@@ -80,8 +80,10 @@
 @section('mi-script')
 	{{ HTML::script('js/jquery.flexslider-min.js') }}
 	<script type="text/javascript" charset="utf-8">
-	    $(window).load(function() {
-	        $(".flexslider").flexslider();
+	    $(window).on('load', function() {
+		$('.flexslider').flexslider({
+			animation: "slide"
+		});
 	    });
 	</script>
 @stop
