@@ -16,16 +16,6 @@ En **Linux** ejecutar los siguientes comandos después de descargar el proyecto:
 4. composer install
 5. composer update `opcional`
 6. sudo chmod -R 777 app/storage/
-7. sudo nano /etc/apache2/apache2.conf
-```
-Modificar:
-<Directory /var/www/>
-	#AllowOverride None
-        AllowOverride All
-</Directory>
-```
-8. sudo a2enmod rewrite
-9. sudo service apache2 restart
 
 ---
 
