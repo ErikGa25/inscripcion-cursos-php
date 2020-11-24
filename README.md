@@ -1,10 +1,6 @@
 
 # Instrucciones
 
-- Se debe tener instalado el manejador de dependencias **Composer**.
-
----
-
 En **Windows** ejecutar lo siguiente después de descargar el proyecto:
 
 1. Mover la carpeta APPINSCRIPCIONCURSOS al servidor local.
